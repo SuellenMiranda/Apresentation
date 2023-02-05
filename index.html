@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<title>Apresentation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+    
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+    /* Set the width of the sidebar to 120px */
+    
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    
+    #main {
+        margin-left: 120px
+    }
+    /* Remove margins from "page content" on small screens */
+    
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+</style>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="Suh.png" style="width:100%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT ME</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Suellen.</h1>
+            <p>Programmer in Development.</p>
+            <img src="Su.jpg" alt="girl" class="w3-image" width="550" height="1000">
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">Suellen Miranda Amorim</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>I am a Computer Science student at Universidade Vila Velha.<br> I'm 19 years old, I know a few languages besides the famous markup language used to build pages on the Web (HTML - Hypertext Markup Language).<br> I'm focusing on RN - React Native
+                and C#, where I'll get deeper into knowing more, and in the future adding more languages to the curriculum.</p>
+
+            <!-- Skills -->
+            <div class="list">
+                <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+
+                <li>Conhecimento técnico [Technical knowledge]</li>
+                <li>Resolução de problemas [Problem solving]</li>
+                <li>Comunicação [Communication]</li>
+                <li>Trabalho em equipe [Team work]</li>
+                <li>Aprendizado constante [constant learning]</li>
+                <li>Adaptabilidade [Adaptability]</li>
+                <li>Atenção aos detalhes [Attention to the details]</li>
+                <li>Proatividade [Proactivity]</li>
+                <li>Documentação [Documentation]</li>
+                <li>Paixão pela tecnologia [Passion for technology]</li>
+
+            </div>
+
+            <h3 class="w3-padding-16 w3-text-light-grey">My Projects</h3>
+
+            <p class="w3-wide">JobRednit 1 and 2</p>
+            <p class="w3-wide">For the project to stop showing an error, just click on the beautiful button at the bottom of the page [update to ~version]</p>
+
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:49px;width:50%">
+                    <p>
+                        <a href="https://snack.expo.dev/@kittymayuko/job_rednit">
+                          https://snack.expo.dev/@kittymayuko/job_rednit [User Company]
+          </a>
+                        <a href="https://snack.expo.dev/@kittymayuko/job_rednit2">
+                          https://snack.expo.dev/@kittymayuko/job_rednit2 [Person User]
+                          </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="w3-wide">Dashboard Siderbar Menu - Tamplate</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:65%">
+                    <p>
+                        <a href="https://suellen-kitten.github.io/Dashboard-Siderbar-Menu/">
+          https://suellen-kitten.github.io/Dashboard-Siderbar-Menu/
+          </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="w3-wide">My Website - suh - Project</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:80%">
+                    <p>
+                        <a href="https://suellenmiranda.github.io/MeuWebsiteSuh/">
+                          https://suellenmiranda.github.io/MeuWebsiteSuh/
+          </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="w3-wide">Nikel Project</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:90%">
+                    <p>
+                        <a href="https://suellenmiranda.github.io/Nikel_Project/">
+                          https://suellenmiranda.github.io/Nikel_Project/
+          </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="w3-wide">Interactive Login Template</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:65%">
+                    <p>
+                        <a href="https://suellen-kitten.github.io/Animated-Login-Form/">
+          https://suellen-kitten.github.io/Animated-Login-Form/
+          </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="w3-wide">Personal Resume</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:60%">
+                    <p>
+                        <a href="https://suellen-kitten.github.io/CurriculumPessoal/">
+          https://suellen-kitten.github.io/CurriculumPessoal/ 
+          </a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="w3-wide">Design of a Web Site</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:50%">
+                    <p>
+                        <a href="https://suellen-kitten.github.io/ZHIYITECH/">
+          https://suellen-kitten.github.io/ZHIYITECH/
+          </a>
+                    </p>
+                </div>
+            </div><br>
+
+        </div>
+
+
+        <!-- Contact Section -->
+
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p>
+                    <a target="_blank" class="w3-hover-text-green">
+                        <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Vila Velha, ES - Brazil
+                    </a>
+                </p>
+                <p>
+                    <a target="_blank" class="w3-hover-text-green">
+                        <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Whatsapp and Sgnial Phone: +55 027 98847-9887
+                    </a>
+                </p>
+                <p>
+                    <a target="_blank" class="w3-hover-text-green">
+                        <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: suellen.org@gmail.com
+                    </a>
+                </p>
+            </div><br>
+
+            <!-- por depoix -->
+
+            <!-- End Contact Section -->
+
+        </div>
+
+        <!-- Footer -->
+        <div class="w3-padding-64 w3-content w3-text-grey w3-xxlarge" id="contact">
+            <h2 class="w3-text-light-grey">Social Media</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <a href="https://www.facebook.com/kittenoop.maya"><i class="fa fa-facebook-square w3-hover-opacity"></i></a>
+            <a href="https://github.com/Suellen-Kitten?tab=repositories"><i class="fa fa-github-square w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/suellen-miranda-amorim/"><i class="fa fa-linkedin-square w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/Suh_EUCLXEL"><i class="fa fa-twitter-square w3-hover-opacity"></i></a>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey">
+            <p class="w3-medium">Made by <a target="_blank" class="w3-hover-text-green">Suellen Miranda Amorim</a></p>
+        </footer>
+        <!-- End footer -->
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+</body>
+
+</html>
